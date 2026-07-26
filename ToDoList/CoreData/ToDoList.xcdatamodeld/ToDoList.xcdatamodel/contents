@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25F84" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TaskItem" representedClassName="TaskItem" syncable="YES">
+        <attribute name="completed" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 64" usesScalarValueType="NO"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 64" usesScalarValueType="NO"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+</model>
